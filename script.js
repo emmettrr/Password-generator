@@ -12,6 +12,8 @@ if (string > 8 || string > 128) {
   
 }
 
+
+
 var generateBtn = document.querySelector('#generate');
 function generatePassword() {
   return;
