@@ -6,11 +6,13 @@ var char = "!\"#$%&'()*+,-./:;<=>?@[\]^_`{|}~"
 
 var string = prompt("Enter the number of characters for desired password length between 8 and 128");
 
-if (string > 8 || string > 128) {
+if (string < 8 || string > 128) {
   
 } else { prompt ("That is an invalid number. Try again!")
   
 }
+
+
 
 
 
