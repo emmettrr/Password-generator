@@ -2,11 +2,11 @@
 var lowLet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 var upLet = "abcdefghijklmnopqrstuvwxyz"
 var num = "0123456789"
-var spec = "!@#$%^&*"
+var spec = " !\"#$%&'()*+,-./:;<=>?@[\]^_`{|}~"
 
 var generateBtn = document.querySelector('#generate');
 function generatePassword() {
-  return 'yourpassword';
+  return;
 }
 // Write password to the #password input
 function writePassword() {
