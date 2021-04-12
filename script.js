@@ -1,15 +1,14 @@
 // Assignment Code
+var pass = "abcdefghijklmnopqrstuvwxyz"
+var low = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+var num = "0123456789"
+var char = "!\"#$%&'()*+,-./:;<=>?@[\]^_`{|}~"
 
-var string = prompt("Enter the number of characters for desired password length");
+var string = prompt("Enter the number of characters for desired password length between 8 and 128");
 
-var pass = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!\"#$%&'()*+,-./:;<=>?@[\]^_`{|}~"
-
-if (prompt <= 128) {
-  (Math.pass() * 128) + 8;
-}
-
-for (let i = 0; i < string.length; i++) {
-  const element = pass[i];
+if (string > 8 || string > 128) {
+  
+} else { prompt ("That is an invalid number. Try again!")
   
 }
 
