@@ -4,15 +4,16 @@ var random = ""
 var newPass = "";
 
 
+//Function to generate random password
+
 function generatePassword () {
   var string = prompt("Enter the number of characters for desired password length between 8 and 128.");
  
 
 if (string < 8 || string > 128) {
   alert("That is an invalid number. Try again!")
-  
+  return generatePassword ();
 }
-else return;
 
 if (string => 8 && string <= 128) {
   low = confirm("Do you want lower case letters within your password?")
@@ -44,9 +45,10 @@ if (string => 8 && string <= 128) {
              specChar = ""
           }
     
-         //  if (char, num, cap, low != true) {
-         // }else alert("You need to make a selection. Try again!")
-          
+          if (char, num, cap, low != true) {
+         }
+         else alert("You need to make a selection. Try again!")
+         
 
     random = (charactersL + charactersUp + numbers + specChar)
 
