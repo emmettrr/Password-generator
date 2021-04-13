@@ -37,23 +37,22 @@ if (string => 8 && string <= 128) {
            numbers = ""
         }
 
-
         if (char == true) {
            specChar = "!\"#$%&'()*+,-./:;<=>?@[\]^_`{|}~" }
           else {
              specChar = ""
           }
     
+         //  if (char, num, cap, low != true) {
+         // }else alert("You need to make a selection. Try again!")
+          
+
     random = (charactersL + charactersUp + numbers + specChar)
 
     for (let i = 0, n = random.length; i < string; ++i) {
     newPass += random.charAt(Math.floor(Math.random() * n));
     
     }
-
-
-
-
 
 }
 return newPass;
