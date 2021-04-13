@@ -1,4 +1,5 @@
 // Assignment Code
+var generateBtn = document.querySelector('#generate');
 var random = ""
 var newPass = "";
 
@@ -29,19 +30,20 @@ if (string => 8 && string <= 128) {
         var charactersUp = ""
       }
 
-      if (numbers == true) {
+      if (num == true) {
         var numbers = "0123456789"}
         else {
-          var  numbers = ""
+          var numbers = ""
         }
 
 
-        if (specChar == true) {
+        if (char == true) {
           var specChar = "!\"#$%&'()*+,-./:;<=>?@[\]^_`{|}~" }
           else {
             var specChar = ""
           }
-    random = (charactersL + charactersUp + numbers + specChar)
+    
+          random = (charactersL + charactersUp + numbers + specChar)
 
     for (let i = 0, n = random.length; i < string; ++i) {
     newPass += random.charAt(Math.floor(Math.random() * n));
@@ -59,11 +61,6 @@ return newPass;
 }
 
 
-
-
-
-
-var generateBtn = document.querySelector('#generate');
 
 // Write password to the #password input
 function writePassword() {
