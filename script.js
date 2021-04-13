@@ -10,7 +10,6 @@ function generatePassword () {
 
 if (string < 8 || string > 128) {
   alert("That is an invalid number. Try again!")
-  
 }
 
 if (string => 8 && string <= 128) {
