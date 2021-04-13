@@ -19,31 +19,31 @@ if (string => 8 && string <= 128) {
   char = confirm("Do you want special characters in your password?")
   
   if (low == true) {
-    var charactersL = "abcdefghijklmnopqrstuvwxyz" }
+     charactersL = "abcdefghijklmnopqrstuvwxyz" }
     else {
-      var charactersL = ""
+       charactersL = ""
     }
     
     if (cap == true) {
-      var charactersUp = "ABCDEFGHIJKLMNOPQRSTUVWXYZ" }
+      charactersUp = "ABCDEFGHIJKLMNOPQRSTUVWXYZ" }
       else {
-        var charactersUp = ""
+         charactersUp = ""
       }
 
       if (num == true) {
-        var numbers = "0123456789"}
+         numbers = "0123456789"}
         else {
-          var numbers = ""
+           numbers = ""
         }
 
 
         if (char == true) {
-          var specChar = "!\"#$%&'()*+,-./:;<=>?@[\]^_`{|}~" }
+           specChar = "!\"#$%&'()*+,-./:;<=>?@[\]^_`{|}~" }
           else {
-            var specChar = ""
+             specChar = ""
           }
     
-          random = (charactersL + charactersUp + numbers + specChar)
+    random = (charactersL + charactersUp + numbers + specChar)
 
     for (let i = 0, n = random.length; i < string; ++i) {
     newPass += random.charAt(Math.floor(Math.random() * n));
@@ -54,9 +54,7 @@ if (string => 8 && string <= 128) {
 
 
 
-  }
- 
-
+}
 return newPass;
 }
 
@@ -65,7 +63,7 @@ return newPass;
 // Write password to the #password input
 function writePassword() {
   console.log('writing password');
-  var pass = generatePassword();
+  var password = generatePassword();
   var passwordText = document.querySelector('#password');
   passwordText.value = password;
 }
