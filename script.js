@@ -36,8 +36,8 @@ if (string => 8 && string <= 128) {
         }
 
 
-        if (numbers == true) {
-          var specChar = "!\"#$%&'()*+,-./:;<=>?@[\]^_`{|}~"}
+        if (specChar == true) {
+          var specChar = "!\"#$%&'()*+,-./:;<=>?@[\]^_`{|}~" }
           else {
             var specChar = ""
           }
