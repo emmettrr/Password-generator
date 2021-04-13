@@ -1,29 +1,32 @@
 // Assignment Code
-var pass = "abcdefghijklmnopqrstuvwxyz"
-var low = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+var low = "abcdefghijklmnopqrstuvwxyz"
+var cap = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 var num = "0123456789"
 var char = "!\"#$%&'()*+,-./:;<=>?@[\]^_`{|}~"
+var newPass = "";
 
-var string = prompt("Enter the number of characters for desired password length between 8 and 128");
 
-if (string >= 8 || string <= 128) {}
+function generatePassword () {
+  var string = prompt("Enter the number of characters for desired password length between 8 and 128");
+ 
 
 if (string < 8 || string > 128) {
-  
-} else { prompt ("That is an invalid number. Try again!")
+  alert("That is an invalid number. Try again!")
   
 }
+if (string => 8 && string <= 128) {
+  low = confirm("Do you want lower case letters within your password?")
+} 
 
-var newPass = "";
+return newPass;
+}
+
 
 
 
 
 
 var generateBtn = document.querySelector('#generate');
-function generatePassword() {
-  return;
-}
 
 // Write password to the #password input
 function writePassword() {
