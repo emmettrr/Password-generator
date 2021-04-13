@@ -21,10 +21,10 @@ if (string => 8 && string <= 128) {
   num = confirm("Do you want numbers in your password?")
   char = confirm("Do you want special characters in your password?")
   
-   if (low, cap, num, char === false) {
-      alert("You need to make a selection. Try again!");
-      return generatePassword();
-   }
+  if (low === false && cap === false && num === false && char === false) {
+   alert("You need to make a selection. Try again!");
+   return generatePassword();
+}
 
   if (low == true) {
      charactersL = "abcdefghijklmnopqrstuvwxyz" }
