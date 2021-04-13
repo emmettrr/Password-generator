@@ -16,6 +16,10 @@ if (string < 8 || string > 128) {
 }
 if (string => 8 && string <= 128) {
   low = confirm("Do you want lower case letters within your password?")
+  cap = confirm("Do you want capitalized letters in your password?")
+  num = confirm("Do you want numbers in your password?")
+  char = confirm("Do you want special characters in your password?")
+  
 } 
 
 return newPass;
