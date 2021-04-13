@@ -5,7 +5,7 @@ var newPass = "";
 
 
 function generatePassword () {
-  var string = prompt("Enter the number of characters for desired password length between 8 and 128");
+  var string = prompt("Enter the number of characters for desired password length between 8 and 128.");
  
 
 if (string < 8 || string > 128) {
