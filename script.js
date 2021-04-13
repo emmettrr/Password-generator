@@ -21,6 +21,11 @@ if (string => 8 && string <= 128) {
   num = confirm("Do you want numbers in your password?")
   char = confirm("Do you want special characters in your password?")
   
+   if (low, cap, num, char === false) {
+      alert("You need to make a selection. Try again!");
+      return generatePassword();
+   }
+
   if (low == true) {
      charactersL = "abcdefghijklmnopqrstuvwxyz" }
     else {
@@ -44,10 +49,6 @@ if (string => 8 && string <= 128) {
           else {
              specChar = ""
           }
-    
-          if (char, num, cap, low != true) {
-         }
-         else alert("You need to make a selection. Try again!")
          
 
     random = (charactersL + charactersUp + numbers + specChar)
