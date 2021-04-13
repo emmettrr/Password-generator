@@ -10,7 +10,9 @@ function generatePassword () {
 
 if (string < 8 || string > 128) {
   alert("That is an invalid number. Try again!")
+  
 }
+else return;
 
 if (string => 8 && string <= 128) {
   low = confirm("Do you want lower case letters within your password?")
@@ -50,14 +52,11 @@ if (string => 8 && string <= 128) {
 
     for (let i = 0, n = random.length; i < string; ++i) {
     newPass += random.charAt(Math.floor(Math.random() * n));
-    
     }
 
 }
 return newPass;
 }
-
-
 
 // Write password to the #password input
 function writePassword() {
