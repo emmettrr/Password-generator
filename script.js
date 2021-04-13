@@ -12,6 +12,7 @@ if (string < 8 || string > 128) {
   alert("That is an invalid number. Try again!")
   
 }
+
 if (string => 8 && string <= 128) {
   low = confirm("Do you want lower case letters within your password?")
   cap = confirm("Do you want capitalized letters in your password?")
