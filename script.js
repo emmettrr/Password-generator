@@ -1,8 +1,5 @@
 // Assignment Code
-var low = "abcdefghijklmnopqrstuvwxyz"
-var cap = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-var num = "0123456789"
-var char = "!\"#$%&'()*+,-./:;<=>?@[\]^_`{|}~"
+var random = ""
 var newPass = "";
 
 
@@ -20,7 +17,43 @@ if (string => 8 && string <= 128) {
   num = confirm("Do you want numbers in your password?")
   char = confirm("Do you want special characters in your password?")
   
-} 
+  if (low == true) {
+    var charactersL = "abcdefghijklmnopqrstuvwxyz" }
+    else {
+      var charactersL = ""
+    }
+    
+    if (cap == true) {
+      var charactersUp = "ABCDEFGHIJKLMNOPQRSTUVWXYZ" }
+      else {
+        var charactersUp = ""
+      }
+
+      if (numbers == true) {
+        var numbers = "0123456789"}
+        else {
+          var  numbers = ""
+        }
+
+
+        if (numbers == true) {
+          var specChar = "!\"#$%&'()*+,-./:;<=>?@[\]^_`{|}~"}
+          else {
+            var specChar = ""
+          }
+    random = (charactersL + charactersUp + numbers + specChar)
+
+    for (let i = 0, n = random.length; i < string; ++i) {
+    newPass += random.charAt(Math.floor(Math.random() * n));
+    
+    }
+
+
+
+
+
+  }
+ 
 
 return newPass;
 }
