@@ -14,7 +14,7 @@ function generatePassword () {
    return generatePassword ();
    }
       if (isNaN(pass)) {
-      return "You can only choose a number. Try again!"}
+      return ("You can only choose a number. Try again!")}
 
    if (pass => 8 && pass <= 128) {
       low = confirm("Do you want lower case letters within your password?")
