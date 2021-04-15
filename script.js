@@ -7,13 +7,14 @@ var newPass = "";
 //Function to generate random password
 
 function generatePassword () {
-  var pass = prompt("Enter the number of characters for desired password length between 8 and 128.");
- 
+  var pass = prompt("Enter the number of characters for desired password length between 8 and 128.")
 
    if (pass < 8 || pass > 128) {
    alert("That is an invalid number. Try again!")
    return generatePassword ();
    }
+      if (isNaN(pass)) {
+      return "You can only choose a number. Try again!"}
 
    if (pass => 8 && pass <= 128) {
       low = confirm("Do you want lower case letters within your password?")
