@@ -2,4 +2,4 @@
 
 ### A demonstration of how it works:
 
-![Demo](./assets/55zspf.gif)
+![Demo](./Assets/55zspf.gif)
