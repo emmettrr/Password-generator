@@ -2,7 +2,7 @@
 
 ### A demonstration of how it works:
 
-![Demo](./Assets/55zspf.gif)
+![Demo](https://media.giphy.com/media/hHXF3mG5E5uAvO9kpN/giphy.gif)
 <br>
 <br>
 &#x2611; Added a statement that makes sure you're entering only numbers.
