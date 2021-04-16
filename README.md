@@ -18,4 +18,4 @@ The way that the password generator is written is with true false statements. Th
 
 ### Below is the link! Go try it for yourself!
 
-![Deploy to Website] (https://emmettrr.github.io/Password-generator/)
+[Deploy to Website] (https://emmettrr.github.io/Password-generator)
