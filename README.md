@@ -2,7 +2,7 @@
 
 ### A demonstration of how it works:
 
-![Demo](https://media.giphy.com/media/hHXF3mG5E5uAvO9kpN/giphy.gifq)
+![Demo](https://media.giphy.com/media/hHXF3mG5E5uAvO9kpN/giphy.gif)
 <br>
 <br>
 
